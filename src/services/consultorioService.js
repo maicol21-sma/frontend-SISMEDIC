@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:3000/api/consultorios";
-
+const API = `${import.meta.env.VITE_API_URL || "https://backend-sismedic.onrender.com"}/api/consultorios`;
 
 // OBTENER
 export const getConsultorios = async () => {

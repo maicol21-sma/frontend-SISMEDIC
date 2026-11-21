@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:3000/api/medicos";
+const API = `${import.meta.env.VITE_API_URL || "https://backend-sismedic.onrender.com"}/api/medicos`;
 
 export const getMedicos = async () => {
   const response = await axios.get(API);

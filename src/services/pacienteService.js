@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:3000/api/pacientes";
+const API = `${import.meta.env.VITE_API_URL || "https://backend-sismedic.onrender.com"}/api/pacientes`;
 
 // Obtener pacientes
 export const getPacientes = async () => {

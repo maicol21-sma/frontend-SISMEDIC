@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/citas";
+const API = `${import.meta.env.VITE_API_URL || "https://backend-sismedic.onrender.com"}/api/citas`;
 
 
 // OBTENER
