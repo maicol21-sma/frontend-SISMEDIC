@@ -166,5 +166,9 @@ Proyecto formativo desarrollado en el programa Tecnólogo en Análisis y Desarro
 
 Proyecto con fines formativos.
 
+## Control de versiones
 
+El proyecto utiliza Git y GitHub para gestionar
+los cambios del código y facilitar el trabajo
+colaborativo mediante ramas y Pull Requests.
 
